@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos de Interés en Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Jumbotron</h1>
+          <p class="col-md-8 fs-4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+            fugit quis ad deserunt reiciendis autem qui eaque natus laborum.
+            Minus labore voluptas alias, ex odit cum blanditiis velit magni id.
+          </p>
+          <button
+            class="btn btn-primary btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Modal
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">Ejercicio Nro 12 del curso de html</div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <form action="#">
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="nombre" id="nombre" />
+          </div>
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Telefono</label>
+            <input
+              type="number"
+              class="form-control"
+              name="telefono"
+              id="telefono"
+            />
+          </div>
+          <div class="form-floating">
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              class="form-control"
+            ></textarea>
+            <label for="mensaje">Mensaje</label>
+          </div>
+          <button type="submit" class="btn btn-primary my-3">Enviar</button>
+        </form>
+      </div>
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Rama7878</h5>
+          <p class="card-text">
+            Estoy haciendo el curso de HTML y CSS de OpenBootCamp y este es el
+            ejercicio numero 12
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="mailto:rama@example.com" class="card-link">rama@example.com</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+</html>
